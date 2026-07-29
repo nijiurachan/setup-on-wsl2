@@ -2,7 +2,7 @@
 WindowsのWSL2(Ubuntu)をセットアップするためのWindows Batchファイル。
 
 # これは何？
-このリポジトリは、WindowsのWSL2上でComfyUIをセットアップするための手順を提供します。
+このリポジトリは、WindowsのWSL2(Ubuntu)をセットアップするための手順を提供します。
 
 # ATTENTION(注意事項)
 - 下記をよく読み、セキュアな環境構築をしてください  
