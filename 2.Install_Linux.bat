@@ -159,7 +159,8 @@ nvm install 24
 node -v # "v24.18.0"が表示される。
 
 # pnpmをインストールする：
-yes | corepack prepare pnpm@latest --activate
+export COREPACK_ENABLE_DOWNLOAD_PROMPT=0
+corepack enable pnpm
 
 # pnpmのバージョンを確認する：
 pnpm -v
