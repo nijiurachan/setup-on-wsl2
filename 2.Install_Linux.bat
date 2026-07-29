@@ -91,7 +91,7 @@ apt-get install -y --no-install-recommends curl git ca-certificates vim tmux sud
 
 # libatomic1 は pnpmが利用する
 # unzip は bunが利用する
-apt-get install -y --no-install-recommends libatomic1 unzip
+apt-get install -y --no-install-recommends libatomic1 unzip podman
 
 # Create developer
 useradd -m -N -G adm -s /bin/bash developer
