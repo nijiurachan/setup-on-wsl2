@@ -91,7 +91,8 @@ apt-get install -y --no-install-recommends curl git ca-certificates vim tmux sud
 
 # libatomic1 は pnpmが利用する
 # unzip は bunが利用する
-apt-get install -y --no-install-recommends libatomic1 unzip podman
+# podman/uidmap はコンテナ環境用
+apt-get install -y --no-install-recommends libatomic1 unzip podman uidmap
 
 # Create developer
 useradd -m -N -G adm -s /bin/bash developer
